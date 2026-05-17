@@ -16,7 +16,7 @@ const domainAman = [
     "mail.google.com"       // Gmail
 ];
 
-const urlGambarPeringatan = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Stop_hand.svg/512px-Stop_hand.svg.png"; 
+const urlGambarPeringatan = "https://animealert.net/wp-content/uploads/2025/07/20250721_142018-1024x576.jpg"; 
 
 // 3. FITUR BLOKIR HALAMAN OTOMATIS (Dengan pengecekan Whitelist)
 function periksaHalaman() {
