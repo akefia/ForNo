@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Web Guardian - Peringatan Konten",
+  "version": "1.0",
+  "description": "Mendeteksi ketikan dan memblokir URL yang mengandung konten dewasa dan perjudian.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "webguardian@tools.lokal"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
